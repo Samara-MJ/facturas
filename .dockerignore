@@ -1,0 +1,55 @@
+# Dependencias
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos y directorios de desarrollo
+.git
+.gitignore
+.next
+.swc
+.vscode
+.idea
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de construcción y caché
+build
+out
+dist
+.turbo
+.cache
+
+# Archivos de pruebas y documentación
+__tests__
+*.test.js
+*.test.ts
+README.md
+CHANGELOG.md
+.eslintrc
+.prettierrc
+```
+
+Este `.dockerignore` hace lo siguiente:
+- Evita copiar dependencias innecesarias
+- Excluye archivos de entorno sensibles
+- Elimina archivos de desarrollo y configuración
+- Ignora archivos de sistema y logs
+- Previene la copia de artefactos de construcción anteriores
+
+Asegúrate de guardarlo en la raíz de tu proyecto, junto al Dockerfile y docker-compose.yml.
+
+¿Necesitas que te explique alguno de los elementos?
